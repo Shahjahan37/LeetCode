@@ -1,4 +1,5 @@
 class Solution {
+    // valid parentheses code
     public boolean isValid(String s) {
         Stack<Character> st = new Stack();
         Map<Character, Character> map = new HashMap();
@@ -12,6 +13,6 @@ class Solution {
             else if(st.isEmpty() || c != map.get(st.pop()))
                 return false;
         }
-        return st.isEmpty();
+        return st.isEmpty(); 
     }
 }
