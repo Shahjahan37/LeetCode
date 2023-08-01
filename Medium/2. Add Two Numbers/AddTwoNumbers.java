@@ -31,7 +31,5 @@ class Solution {
             cur_node = cur_node.next;
         }
         return dummy_head.next;
-        
-        
     }
 }
